@@ -1,6 +1,8 @@
 # lipsync-opensource-research
 This is a research for findings open source methods implementing lip-sync on video. We believe Eleven Labs is likely the best option for high-quality voice replication, but its not open source. So here we go the research for lipsync open source methods.
 
+---------------------------------
+
 ## Wav2Lip
 Github repo: https://github.com/Rudrabha/Wav2Lip
 
@@ -37,6 +39,8 @@ https://github.com/user-attachments/assets/6ec17f98-096e-45c1-80c3-c32399326c34
 
 API Documentations: https://docs.sync.so/api-reference/endpoint/generate/post-generate
 
+---------------------------------
+
 # Avatarify
 Github Repo: https://github.com/alievk/avatarify-python
 
@@ -50,14 +54,21 @@ Features:
 
 notes: I haven't tried this yet on my local machines.
 
-# https://liveportrait.github.io
+---------------------------------
+
+# Live Portrait
 Github Repo: https://github.com/KwaiVGI/LivePortrait
+
+Website: https://liveportrait.github.io
 
 Overview: LivePortrait uses AI-powered facial motion capture and animation techniques to animate photos, including animals like dogs. This typically involves a reference video or an audio track that the system uses to animate the portrait by moving facial landmarks like the eyes, mouth, and nose in sync with speech or expression changes. But i think its works properly by static image, then its generate a video with lip sync by that image.
 
 # Conclusion
 - It think the best for this is Wav2Lip, it has documented properly for the api. But currently i still find a way how to tune the models ...
 - Currently, none of these projects are plug-and-play for dog lip-sync specifically, but with some adjustments and custom dataset creation, they offer promising pathways for a solution.
+
+
+---------------------------------
 
 # reference:
 - https://www.pragnakalp.com/best-ai-lip-sync-generators-open-source-free-in-2024-a-comprehensive-guide/
