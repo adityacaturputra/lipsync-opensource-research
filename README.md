@@ -41,6 +41,17 @@ API Documentations: https://docs.sync.so/api-reference/endpoint/generate/post-ge
 
 ---------------------------------
 
+# Live Portrait - I think it can be fit for dog lipsync
+Github Repo: https://github.com/KwaiVGI/LivePortrait
+
+Website: https://liveportrait.github.io
+
+Example: https://www.youtube.com/watch?v=kDlCUEsVzF8
+
+Overview: LivePortrait uses AI-powered facial motion capture and animation techniques to animate photos, including animals like dogs. This typically involves a reference video or an audio track that the system uses to animate the portrait by moving facial landmarks like the eyes, mouth, and nose in sync with speech or expression changes. I think its works properly by static image, then its generate a video with lip sync by that image.
+
+---------------------------------
+
 # Avatarify
 Github Repo: https://github.com/alievk/avatarify-python
 
@@ -56,17 +67,9 @@ notes: I haven't tried this yet on my local machines.
 
 ---------------------------------
 
-# Live Portrait
-Github Repo: https://github.com/KwaiVGI/LivePortrait
-
-Website: https://liveportrait.github.io
-
-Overview: LivePortrait uses AI-powered facial motion capture and animation techniques to animate photos, including animals like dogs. This typically involves a reference video or an audio track that the system uses to animate the portrait by moving facial landmarks like the eyes, mouth, and nose in sync with speech or expression changes. But i think its works properly by static image, then its generate a video with lip sync by that image.
-
 # Conclusion
-- It think the best for this is Wav2Lip, it has documented properly for the api. But currently i still find a way how to tune the models ...
-- Currently, none of these projects are plug-and-play for dog lip-sync specifically, but with some adjustments and custom dataset creation, they offer promising pathways for a solution.
-
+- It think the best for this is Wav2Lip, it has documented properly for the api. But currently i still find a way how to tune the models.
+- For animals or dog lipsync, the best fot this is we can use Live Potrait.
 
 ---------------------------------
 
