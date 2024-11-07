@@ -3,6 +3,23 @@ This document summarizes research on open-source methods for implementing lip-sy
 
 ---------------------------------
 
+## VideoRetalking
+Based on the official page, I reviewed VideoReTalking’s results compared to ATVG, LipGAN, Wav2Lip, MakeItTalk, and PC-AVS. From the lip-sync video results, VideoReTalking stands out due to its structured approach, divided into three steps: 
+
+- (1) face video generation with a canonical expression; 
+- (2) audio-driven lip-sync;
+- (3) face enhancement for improving photo-realism.
+
+Page: https://opentalker.github.io/video-retalking/
+
+Github: https://github.com/OpenTalker/video-retalking
+
+To implement, we can use a VM, like on RunPod, and build an API with a Python framework (Flask, FastAPI, etc.). There are also models on Replicate: [chenxwh](https://replicate.com/chenxwh/video-retalking).
+
+If we are ready to using this, i'll try to setup it on local for the rest api.
+
+---------------------------------
+
 ## Wav2Lip
 Github repo: https://github.com/Rudrabha/Wav2Lip
 
