@@ -18,6 +18,19 @@ To implement, we can use a VM, like on RunPod, and build an API with a Python fr
 
 If we are ready to using this, i'll try to setup it on local for the rest api.
 
+### Update - November 8, 2024
+I found a video comparing wav2lip, wav2lip + GAN, videoretalking, and dinet:
+the video: https://www.youtube.com/watch?v=lSODJt8Xqn0
+- Dinet performs well, but it shows a noticeable square around the lips if the resolution is low or if the video has animations. Based on user feedback, it seems to deliver higher quality results with high-resolution inputs and less head movement.
+- VideoReTalking performs well on average, even with low-resolution videos. However, it encountered errors in 4 out of 16 tests, as shown at 5:42 in the video. Still. But i think it’s the winner cause its better overall.
+
+I also found this thread on Twitter! [Twitter Post Link](https://x.com/thibaudz/status/1713518876300857419). The SadTalker video looks quite realistic to me! [The SadTalker Video Link](https://x.com/thibaudz/status/1713518881304608904)
+
+Other resources I’ve reviewed:
+https://x.com/minchoi/status/1843395626199142521
+https://www.reddit.com/r/StableDiffusion/comments/1fy63qy/the_best_opensource_lipsync_tools_as_of_right_now/
+https://www.reddit.com/r/StableDiffusion/comments/1fy63qy/comment/lrjhrhp/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button
+
 ---------------------------------
 
 ## Wav2Lip
@@ -87,6 +100,9 @@ Note: I haven’t yet tested this on my local machine.
 # Conclusion
 - Wav2Lip seems the best option overall, with thorough documentation for its API and support for integration with Eleven Labs. However, I'm still exploring ways to fine-tune the models.
 - Live Portrait appears to be the best option for lip-sync applications involving animals or dogs.
+
+Update 8 Nov 2024
+- 
 
 ---------------------------------
 
